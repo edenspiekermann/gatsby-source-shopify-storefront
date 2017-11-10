@@ -1,8 +1,8 @@
 {
   "name": "gatsby-source-shopify-storefront",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description":
-    "Gatsby source plugin for building websites using product data from the Shopify Storefront API",
+    "Gatsby source plugin for using product data from the Shopify Storefront API",
   "repository": {
     "type": "git",
     "url":
