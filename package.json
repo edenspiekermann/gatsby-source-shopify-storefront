@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-shopify-storefront",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description":
     "Gatsby source plugin for building websites using product data from the Shopify Storefront API",
   "repository": {
@@ -13,9 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "graphql-client": "^2.0.0",
-    "babel-runtime": "^6.26.0"
-  },
-  "devDependencies": {
+    "babel-runtime": "^6.26.0",
     "cross-env": "^5.0.5"
   },
   "scripts": {
