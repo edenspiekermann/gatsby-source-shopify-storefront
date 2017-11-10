@@ -1,7 +1,7 @@
 module.exports = `query ProductsQuery {
     shop {
       name
-      products(first: 250) {
+      products(first: 250, sortKey: UPDATED_AT) {
         pageInfo {
           hasNextPage
           hasPreviousPage
@@ -10,6 +10,8 @@ module.exports = `query ProductsQuery {
           node {
             id
             title
+            createdAt
+            updatedAt
             variants(first: 250) {
               pageInfo {
                 hasNextPage
