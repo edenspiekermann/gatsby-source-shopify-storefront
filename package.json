@@ -1,0 +1,31 @@
+{
+  "name": "gatsby-source-shopify",
+  "version": "",
+  "description": "Gatsby source plugin for building websites using product data from Shopify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edenspiekermann/gatsby-source-shopify.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "shopify",
+    "graphql",
+    "react"
+  ],
+  "author": "jeff@mediumdivision.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edenspiekermann/gatsby-source-shopify/issues"
+  },
+  "homepage": "https://github.com/edenspiekermann/gatsby-source-shopify#readme",
+  "dependencies": {
+    "axios": "^0.17.0",
+    "graphql-client": "^2.0.0",
+    "graphql-fetch": "^1.0.1"
+  }
+}
