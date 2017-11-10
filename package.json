@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-shopify-storefont",
-  "version": "",
+  "version": "0.1.0",
   "description":
     "Gatsby source plugin for building websites using product data from the Shopify Storefront API",
   "repository": {
