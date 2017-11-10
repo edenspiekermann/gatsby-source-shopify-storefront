@@ -14,10 +14,13 @@ Source plugin for pulling product data into [Gatsby](https://github.com/gatsbyjs
     {
       resolve: 'gatsby-source-shopify-storefront',
       options: {
-        // Your Shopify instance name (e.g. 'shopify-store-name', if your shopify shop is located at https://shopify-store-name.myshopify.com/)
+        // Your Shopify instance name (e.g. 'shopify-store-name', 
+        // if your shopify shop is located at https://shopify-store-name.myshopify.com/)
         siteName: 'shopify-store-name',
-        // Your Shopify Storefront API access token generated in the private apps section of your store admin.
-        // Refer to [Shopify's Storefront API Documentation](https://help.shopify.com/api/storefront-api/getting-started) for more information.
+        // Your Shopify Storefront API access token 
+        // generated in the private apps section of your store admin.
+        // Refer to Shopify's Storefront API Documentation for more information
+        // https://help.shopify.com/api/storefront-api/getting-started
         accessToken: 'STOREFRONT_ACCESS_TOKEN',
       },
     },
