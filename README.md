@@ -62,7 +62,7 @@ Source plugin for pulling product data into [Gatsby](https://github.com/gatsbyjs
   }
 ```
 
-## `gatsby-node.js` example
+## Site's `gatsby-node.js` example
 
 If you wish to create Gatsby Pages for each Shopify product, you can modify your `gatsby-node.js`.
 
@@ -80,7 +80,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
     // it like the site has a built-in database constructed
     // from the fetched data that you can run queries against.
 
-    // ==== PAGES (LEVER) ====
+    // ==== PAGES (SHOPIFY PRODUCTS) ====
     graphql(
     `
       {
