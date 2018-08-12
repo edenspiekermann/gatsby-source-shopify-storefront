@@ -47,6 +47,7 @@ module.exports = `query ProductsQuery {
             description
             descriptionHtml
             productType
+            tags
           }
         }
       }
