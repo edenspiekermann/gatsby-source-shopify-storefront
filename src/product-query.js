@@ -12,6 +12,7 @@ module.exports = `query ProductsQuery {
             title
             createdAt
             updatedAt
+            handle
             variants(first: 250) {
               pageInfo {
                 hasNextPage
